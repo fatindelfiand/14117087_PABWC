@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url("../bg.jpg");
+}
+.wrapper{
+    min-height: 400px;
+    margin: 0 auto;
+    width: 1000px;
+    background-color: black;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    border: 1px solid;
+    background-color: white;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border: 0px solid;
+    margin: 1%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    height: 80px;
+}
+.title{
+    width: 50%;
+    height: 80px;
+    border: 0px solid;
+    margin: 1%;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 80px;
+}
+.menu{
+    width: 100%;
+    height: 30px;
+    border: 0px solid;
+    background-color: black;
+    /* float: left; */
+}
+.menu ul a{
+    color: pink;
+    text-decoration: none;
+}
+.side-bar ul a{
+    text-decoration: none;
+}
+.menu ul li{
+    width: 100px;
+    height: 30 px;
+    border: 0px solid;
+    float: left;
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+    color: pink;
+    background-color: black;
+}
+.menu ul li:hover{
+    background-color:maroon;
+}
+.menu ul li ul{
+    display: none;
+    float: left;
+}
+.menu ul li:hover ul{
+    display: block;
+    float: left;
+}
+.menu ul li ul li {
+    background-color: gray;
+    
+}
+.menu ul li ul li:hover {
+    background-color: maroon;
+}
+.content{
+    width: 100%;
+    min-width: 380px;
+    border: 1px solid;
+    overflow: hidden;
+    background-color: white;
+    /* background-image: url("content.jpg"); */
+}
+.side-bar{
+    width: 30%;
+    min-height: 380px;
+    border: 0px solid;
+    float: left;
+    margin: 0.5%;
+    padding: 1%;
+}
+.side-bar img{
+    width: 120px;
+    height: 100px;
+    align-self: center;
+}
+.right-content{
+    width: 63%;
+    min-height: 380px;
+    border: 1px solid;
+    float: left;
+    margin: 0.5%;
+    padding: 1%;
+}
+.right-content img{
+    width: 300px;
+    height: 300px;
+}
+.footer{
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    background-color:palevioletred;
+
+}
