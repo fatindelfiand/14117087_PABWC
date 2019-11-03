@@ -1,8 +1,8 @@
-<HTML>
-    <HEAD>
+<html>
+    <head>
         <title>Tambah Data Mahasiswa</title>
-    </HEAD>
-    <BODY>
+    </head>
+    <body>
         <h1>Tambah Data Mahasiswa</h1>
         <?php
             $NRP = $_POST["NRP"];
@@ -24,20 +24,7 @@
 			
             $sqlstr="insert into mahasiswa (NRP,Nama,Alamat,ID_Jur) values ('$NRP','$Nama','$Alamat','$ID_Jur')";
             $hasil = mysqli_query($conn,$sqlstr);
-            echo "Simpan data mahasiswa berhasil dilakukan<br>";
-
-            /*$nama = $_POST['nama']; 
-            $email = $_POST['email'];
-            $komentar = $_POST['komentar']; 
-            $conn=mysqli_connect ("localhost","root","") or die ("koneksi gagal"); 
-            mysqli_select_db($conn,"praktikum"); 
-            echo "Nama     : $nama <br>"; 
-            echo "Email    : $email <br>"; 
-            echo "Komentar : $komentar <br>"; 
-            $sqlstr="insert into bukutamu (nama,email,komentar) values ('$nama','$email','$komentar')";
-            $hasil = mysqli_query($conn,$sqlstr);
-            echo "Simpan bukutamu berhasil dilakukan"; */
-			  
+            echo "Simpan data mahasiswa berhasil dilakukan<br>";			  
         ?>
-    </BODY>
-</HTML>
+    </body>
+</html>

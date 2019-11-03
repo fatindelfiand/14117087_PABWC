@@ -1,8 +1,8 @@
-<HTML>
-    <HEAD>
+<html>
+    <head>
         <title>Pencarian Data Mahasiswa</title>
-    </HEAD>
-    <BODY>
+    </head>
+    <body>
         <h1>Pencarian Data Mahasiswa</h1>
         <?php
             $cari=isset ($_GET['nama']);
@@ -22,5 +22,5 @@
                 echo "Jurusan : $hasil2[0] <br>";
             }
         ?>
-    </BODY>
-</HTML>
+    </body>
+</html>

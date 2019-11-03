@@ -1,8 +1,8 @@
-<HTML>
-    <HEAD>
+<html>
+    <head>
         <title>Hapus Data Mahasiswa</title>
-    </HEAD>
-    <BODY>
+</head>
+    <body>
         <h1>Hapus Data Mahasiswa</h1>
         <?php
             $del=isset ($_POST['NRP']);
@@ -12,5 +12,5 @@
             $hasil=mysqli_query($conn,$sqlstr) or die(mysqli_error());
             echo "Data dengan NRP : $del Sudah berhasil dihapus";
         ?>
-    </BODY>
-</HTML>
+    </body>
+</html>
